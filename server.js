@@ -1,6 +1,6 @@
 // ==================== IMPORTACIONES ==================== 
 const express = require('express');
-const morgan = require('morgan');
+/* const morgan = require('morgan'); */
 
 
 // ==================== INICIALIZACIONES ====================
@@ -9,7 +9,7 @@ app.set('port', process.env.PORT || 3100);
 
 
 // ==================== MIDDDLEWARES ====================
-app.use((morgan('dev')));
+/* app.use((morgan('dev'))); */
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
