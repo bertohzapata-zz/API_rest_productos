@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended: false}));
 
 // ==================== RUTAS ====================
 app.use('/', require('./routes/app'));
-app.use('/productos', require('./routes/productos'));
+app.use('/api/productos', require('./routes/productos'));
 
 // ==================== ARRANQUE ====================
 app.listen(app.get('port'), () => {

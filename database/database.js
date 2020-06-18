@@ -11,7 +11,7 @@ pool
 })
 .then(connection => {
     connection.release();
-    console.log('Base de datos conectada');
+    console.log('Base de datos conectada en host - ' +  database.host);
 })
 .catch(error => {
     console.log(error);
