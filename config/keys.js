@@ -1,9 +1,9 @@
 module.exports = {
     database: {
         host: 'sql9.freemysqlhosting.net',
-        user: 'sql9349424',
+        user: 'sql9352147',
         port: '3306',
-        password: '4cDZvTqqih',
-        database: 'sql9349424'
+        password: 'SgZFZCc1LJ',
+        database: 'sql9352147'
     }
 }
